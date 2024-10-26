@@ -1,15 +1,15 @@
 # Магазин кросcовок Sneaker
 
-FE - https://github.com/FreemaHG/sneakers-be.git
+FE - https://github.com/FreemaHG/react-sneakers-fe.git
 
-Запуск приложения
+Запуск приложения (с автоматическим импортом фикстур)
 ```
 docker compose up -d
 ```
 
-Импорт фикстур
+Ручной импорт фикстур (опционально)
 ```
-python -m fixtures.import
+docker exec -it sneakers-be python -m fixtures.import
 ```
 
 ![](/screens/1.png)
@@ -19,9 +19,3 @@ python -m fixtures.import
 ![](/screens/5.png)
 ![](/screens/6.png)
 ![](/screens/7.png)
-
-
-## Сделать
-- Добавить авторизацию;
-- Добавить кэширование;
-- Автоматический импорт фикстур при сборке приложения.
