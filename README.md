@@ -1,6 +1,6 @@
 # Магазин кросcовок Sneaker
 
-FE - https://github.com/FreemaHG/react-sneakers-fe.git
+FE - https://github.com/stafeeff-dmitrij/react-sneakers-fe.git
 
 Запуск приложения (с автоматическим импортом фикстур)
 ```
